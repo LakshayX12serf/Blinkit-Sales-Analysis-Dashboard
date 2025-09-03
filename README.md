@@ -49,7 +49,7 @@ Define calculated measures using DAX (e.g., YoY % Change, Fatal Rate, Serious Ra
 
 Add KPIs (Cards) for key accident metrics.
 
-#Build charts:
+# Build charts:
 
 Line chart for monthly trend.
 
