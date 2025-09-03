@@ -1,64 +1,97 @@
 # Blinkit-Sales-Analysis-Dashboard
 A dashboard report generated for blinkit to visualize the data into charts and graphs also according to category of vehicle etc
 
-# Features
+# 🛒 Blinkit Sales Performance Dashboard
+#🔹 Features
 
-High-level KPIs:
+KPI Overview:
 
-Current Year (CY) Casualties, Accidents, Fatal, Serious, and Slight Casualties with % change vs previous year.
+Total Sales, Average Sales, Number of Items, and Average Ratings.
 
-Breakdowns by Category:
+Sales Breakdown:
 
-Casualties by Vehicle Type (Car, Bike, Van, etc.).
+By Fat Content (Low Fat vs Regular).
 
-Casualties by Road Type (single carriageway, dual, roundabout, etc.).
+By Item Type (Fruits, Household, Frozen Foods, etc.).
 
-Casualties by Light Condition (day vs night).
+Outlet Insights:
 
-Trend Analysis:
+Outlet Establishment timeline trend.
 
-CY vs PY monthly trend line chart.
+Outlet Size contribution (Small, Medium, High).
 
-Geographic Analysis:
+Outlet Location tiers (Tier 1, Tier 2, Tier 3).
 
-UK accident hotspots plotted on map.
+Outlet Type performance (Supermarket Type1/2/3, Grocery Store).
 
-Urban vs Rural Split:
+Filters Panel:
 
-Percentage breakdown of accidents in urban vs rural areas.
+Outlet Location Type, Outlet Size, Item Type.
 
-🔹 Requirements
+#🔹 Requirements
 
-Power BI Desktop (latest version recommended).
+Power BI Desktop (latest version).
 
 Dataset containing:
 
-Casualties data (vehicle type, road type, light condition, severity).
+Sales transactions (outlet type, size, tier).
 
-Accident location (geo-coordinates for mapping).
+Product details (item type, fat content).
 
-Time-series accident data for trend analysis.
+Ratings and visibility scores.
+
+Sales timeline (year-wise).
 
 🔹 Steps to Create
 
 Import dataset into Power BI.
 
-Clean & transform data using Power Query Editor (standardize vehicle types, map severity levels).
+Perform data cleaning in Power Query (remove nulls, normalize categories).
 
-Define calculated measures using DAX (e.g., YoY % Change, Fatal Rate, Serious Rate).
+Define calculated fields with DAX (Total Sales, Average Sales per Item, Tier-wise Contribution).
 
-Add KPIs (Cards) for key accident metrics.
+Build KPI cards for summary metrics.
 
-# Build charts:
+Create visualizations:
 
-Line chart for monthly trend.
+Donut chart for Fat Content and Outlet Size distribution.
 
-Donut/pie chart for Urban vs Rural split.
+Bar/column charts for Item Type and Outlet Location performance.
 
-Bar charts for casualties by vehicle/road type.
+Line chart for Outlet Establishment trend.
 
-Map visualization for location hotspots.
+Table with conditional formatting for Outlet Type metrics.
 
-Apply filters (road surface, weather conditions).
+Configure Slicers/Filters Panel for interactivity.
 
-Format dashboard with consistent theme & navigation.
+Apply a brand-aligned theme (Blinkit yellow/green).
+
+# ⚙️ General Requirements for Both Dashboards
+
+Power BI Desktop installed.
+
+Clean and structured dataset (CSV/Excel/SQL).
+
+Knowledge of:
+
+Data Modeling (relationships between tables).
+
+DAX for calculated measures.
+
+Power Query for ETL (Extract, Transform, Load).
+
+# 🚀 How to Use
+
+Open .pbix file in Power BI Desktop.
+
+Connect to dataset or refresh existing connection.
+
+Interact with slicers, filters, and visuals for insights.
+
+Optionally, publish to Power BI Service for sharing and scheduled refresh.
+
+# 📌 Key Takeaways
+
+The Road Accident Dashboard supports safety analytics—helping identify accident trends, causes, and locations.
+
+The Blinkit Dashboard supports retail performance analytics—tracking outlet, product, and sales KPIs.
